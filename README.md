@@ -1,1 +1,1 @@
-# curso-javascript-projeto-usuarios
+# javascript-projeto-usuarios
