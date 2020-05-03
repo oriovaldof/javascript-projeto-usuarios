@@ -195,7 +195,7 @@
           </div>
 
           <!-- Inicio Formulario de Cadastro -->
-          <div class="box box-success">
+          <div class="box box-success" id="box-user-create" >
             <div class="box-header with-border">
               <h3 class="box-title">Novo Usuário</h3>
             </div>
@@ -498,7 +498,7 @@
           <!-- FIM Formulario de Cadastro -->
 
           <!-- Inicio Formulario de Edição -->
-          <div class="box box-primary" style="display: none;">
+          <div class="box box-primary" id="box-user-update" style="display: none;">
             <div class="box-header with-border">
               <h3 class="box-title">Editar Usuário</h3>
             </div>
@@ -783,6 +783,7 @@
                   <input type="password" required class="form-control" id="exampleInputPassword" placeholder="Crie uma senha" name="password">
                 </div>
                 <div class="form-group">
+                  <img src="dist/img/boxed-bg.jpg" class="photo" style="max-height: 128px;" >
                   <label for="exampleInputFile">Foto</label>
                   <input type="file" id="exampleInputFile" name="photo">
                 </div>
@@ -795,7 +796,7 @@
               <!-- /.box-body -->          
               <div class="box-footer">
                 <button type="submit" class="btn btn-primary">Salvar</button>
-                <button type="button" class="btn btn-default">Cancelar</button>
+                <button type="button" class="btn btn-default btn-cancel">Cancelar</button>
               </div>
             </form>
           </div>
